@@ -1,0 +1,13 @@
+{"event": "test_start", "base_url": "http://3.109.63.164/v1", "models": ["gemma3:1b", "gemma3:4b", "gemma4:26b", "qwen2.5:32b"], "timestamp": "20260421_131028", "ts": "2026-04-21T07:40:28.817284+00:00"}
+{"event": "warmup", "model": "gemma3:1b", "exec_ms": 172.0, "tokens": 0, "ts": "2026-04-21T07:40:30.141287+00:00"}
+{"event": "warmup", "model": "gemma3:4b", "exec_ms": 15.0, "tokens": 0, "ts": "2026-04-21T07:40:30.161285+00:00"}
+{"event": "warmup", "model": "gemma4:26b", "exec_ms": 16.0, "tokens": 0, "ts": "2026-04-21T07:40:30.179283+00:00"}
+{"event": "warmup", "model": "qwen2.5:32b", "exec_ms": 16.0, "tokens": 0, "ts": "2026-04-21T07:40:30.199287+00:00"}
+{"event": "switch_gauntlet", "model": "gemma3:1b", "preceded_by": "none", "switched": false, "exec_ms": 31.0, "ts": "2026-04-21T07:40:30.597613+00:00"}
+{"event": "switch_gauntlet", "model": "gemma3:4b", "preceded_by": "gemma3:1b", "switched": true, "exec_ms": 15.0, "ts": "2026-04-21T07:40:30.616611+00:00"}
+{"event": "switch_gauntlet", "model": "gemma4:26b", "preceded_by": "gemma3:4b", "switched": true, "exec_ms": 16.0, "ts": "2026-04-21T07:40:30.634611+00:00"}
+{"event": "switch_gauntlet", "model": "qwen2.5:32b", "preceded_by": "gemma4:26b", "switched": true, "exec_ms": 16.0, "ts": "2026-04-21T07:40:30.653614+00:00"}
+{"event": "switch_gauntlet", "model": "gemma3:1b", "preceded_by": "qwen2.5:32b", "switched": true, "exec_ms": 15.0, "ts": "2026-04-21T07:40:30.671611+00:00"}
+{"event": "switch_gauntlet", "model": "gemma3:4b", "preceded_by": "gemma3:1b", "switched": true, "exec_ms": 32.0, "ts": "2026-04-21T07:40:30.689611+00:00"}
+{"event": "switch_gauntlet", "model": "gemma4:26b", "preceded_by": "gemma3:4b", "switched": true, "exec_ms": 15.0, "ts": "2026-04-21T07:40:30.707610+00:00"}
+{"event": "switch_gauntlet", "model": "qwen2.5:32b", "preceded_by": "gemma4:26b", "switched": true, "exec_ms": 16.0, "ts": "2026-04-21T07:40:30.725611+00:00"}

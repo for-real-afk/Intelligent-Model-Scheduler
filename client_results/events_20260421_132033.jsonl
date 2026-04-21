@@ -1,0 +1,13 @@
+{"event": "test_start_quick", "base_url": "http://3.109.63.164", "models": ["gemma3:1b", "gemma3:4b", "gemma4:26b", "qwen2.5:32b"], "ts": "2026-04-21T07:50:33.154802+00:00"}
+{"event": "warmup", "model": "gemma3:1b", "exec_ms": 40735.0, "tokens": 3, "status": "ok", "ts": "2026-04-21T07:51:14.221081+00:00"}
+{"event": "warmup", "model": "gemma3:4b", "exec_ms": 27140.0, "tokens": 2, "status": "ok", "ts": "2026-04-21T07:51:41.362792+00:00"}
+{"event": "warmup", "model": "gemma4:26b", "exec_ms": 132110.0, "tokens": 95, "status": "ok", "ts": "2026-04-21T07:53:53.472362+00:00"}
+{"event": "warmup", "model": "qwen2.5:32b", "exec_ms": 7203.0, "tokens": 2, "status": "ok", "ts": "2026-04-21T07:54:00.684836+00:00"}
+{"event": "switch_gauntlet", "model": "gemma3:1b", "preceded_by": "none", "switched": false, "exec_ms": 7625.0, "status": "ok", "ts": "2026-04-21T07:54:08.297448+00:00"}
+{"event": "switch_gauntlet", "model": "gemma3:4b", "preceded_by": "gemma3:1b", "switched": true, "exec_ms": 27156.0, "status": "ok", "ts": "2026-04-21T07:54:35.458808+00:00"}
+{"event": "switch_gauntlet", "model": "gemma4:26b", "preceded_by": "gemma3:4b", "switched": true, "exec_ms": 132453.0, "status": "ok", "ts": "2026-04-21T07:56:47.913232+00:00"}
+{"event": "switch_gauntlet", "model": "qwen2.5:32b", "preceded_by": "gemma4:26b", "switched": true, "exec_ms": 7266.0, "status": "ok", "ts": "2026-04-21T07:56:55.173942+00:00"}
+{"event": "switch_gauntlet", "model": "gemma3:1b", "preceded_by": "qwen2.5:32b", "switched": true, "exec_ms": 7578.0, "status": "ok", "ts": "2026-04-21T07:57:02.762301+00:00"}
+{"event": "switch_gauntlet", "model": "gemma3:4b", "preceded_by": "gemma3:1b", "switched": true, "exec_ms": 27188.0, "status": "ok", "ts": "2026-04-21T07:57:29.938690+00:00"}
+{"event": "switch_gauntlet", "model": "gemma4:26b", "preceded_by": "gemma3:4b", "switched": true, "exec_ms": 131734.0, "status": "ok", "ts": "2026-04-21T07:59:41.679939+00:00"}
+{"event": "switch_gauntlet", "model": "qwen2.5:32b", "preceded_by": "gemma4:26b", "switched": true, "exec_ms": 7266.0, "status": "ok", "ts": "2026-04-21T07:59:48.940253+00:00"}

@@ -1,0 +1,93 @@
+test_name,model,request_index,enqueue_ts,ttft_ms,exec_ms,total_ms,prompt_tokens,completion_tokens,tok_per_s,status,error,streaming,concurrency,preceded_by,response_text
+warmup,gemma3:1b,0,1776757229.981288,0.0,172.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,none,
+warmup,gemma3:4b,1,1776757230.1422863,0.0,15.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,gemma3:1b,
+warmup,gemma4:26b,2,1776757230.1612856,0.0,16.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,gemma3:4b,
+warmup,qwen2.5:32b,3,1776757230.1792836,0.0,16.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,gemma4:26b,
+solo_benchmark,gemma3:1b,0,1776757230.2002876,0.0,15.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,warmup,
+solo_benchmark,gemma3:1b,1,1776757230.2192838,0.0,15.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,gemma3:1b,
+solo_benchmark,gemma3:1b,2,1776757230.2372835,0.0,16.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,gemma3:1b,
+solo_benchmark,gemma3:1b,3,1776757230.2562845,0.0,16.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,gemma3:1b,
+solo_benchmark,gemma3:1b,4,1776757230.2752872,0.0,15.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,gemma3:1b,
+solo_benchmark,gemma3:4b,0,1776757230.2942896,0.0,16.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,warmup,
+solo_benchmark,gemma3:4b,1,1776757230.3132837,0.0,15.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,gemma3:4b,
+solo_benchmark,gemma3:4b,2,1776757230.3322875,0.0,16.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,gemma3:4b,
+solo_benchmark,gemma3:4b,3,1776757230.3512843,0.0,15.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,gemma3:4b,
+solo_benchmark,gemma3:4b,4,1776757230.370284,0.0,16.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,gemma3:4b,
+solo_benchmark,gemma4:26b,0,1776757230.389286,0.0,31.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,warmup,
+solo_benchmark,gemma4:26b,1,1776757230.4072838,0.0,16.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,gemma4:26b,
+solo_benchmark,gemma4:26b,2,1776757230.4262843,0.0,16.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,gemma4:26b,
+solo_benchmark,gemma4:26b,3,1776757230.445529,0.0,15.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,gemma4:26b,
+solo_benchmark,gemma4:26b,4,1776757230.4649777,0.0,16.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,gemma4:26b,
+solo_benchmark,qwen2.5:32b,0,1776757230.4839818,0.0,31.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,warmup,
+solo_benchmark,qwen2.5:32b,1,1776757230.5029902,0.0,16.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,qwen2.5:32b,
+solo_benchmark,qwen2.5:32b,2,1776757230.5220919,0.0,15.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,qwen2.5:32b,
+solo_benchmark,qwen2.5:32b,3,1776757230.540097,0.0,16.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,qwen2.5:32b,
+solo_benchmark,qwen2.5:32b,4,1776757230.5596116,0.0,16.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,qwen2.5:32b,
+switch_gauntlet,gemma3:1b,0,1776757230.5776117,0.0,31.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,none,
+switch_gauntlet,gemma3:4b,1,1776757230.5986142,0.0,15.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,gemma3:1b,
+switch_gauntlet,gemma4:26b,2,1776757230.6176128,0.0,16.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,gemma3:4b,
+switch_gauntlet,qwen2.5:32b,3,1776757230.6356125,0.0,16.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,gemma4:26b,
+switch_gauntlet,gemma3:1b,4,1776757230.6536145,0.0,15.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,qwen2.5:32b,
+switch_gauntlet,gemma3:4b,5,1776757230.6716113,0.0,32.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,gemma3:1b,
+switch_gauntlet,gemma4:26b,6,1776757230.6896114,0.0,15.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,gemma3:4b,
+switch_gauntlet,qwen2.5:32b,7,1776757230.7076108,0.0,16.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,1,gemma4:26b,
+batch_affinity,gemma3:1b,0,1776757230.726614,0.0,31.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,6,,
+batch_affinity,gemma3:1b,1,1776757230.7276113,0.0,47.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,6,,
+batch_affinity,gemma3:1b,2,1776757230.7296138,0.0,47.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,6,,
+batch_affinity,gemma3:1b,3,1776757230.7306118,0.0,62.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,6,,
+batch_affinity,gemma3:4b,4,1776757230.7326138,0.0,62.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,6,,
+batch_affinity,gemma3:4b,5,1776757230.7346137,0.0,47.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,6,,
+concurrent_load,gemma3:1b,0,1776757230.7898145,0.0,32.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,8,,
+concurrent_load,gemma3:1b,1,1776757230.7908142,0.0,47.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,8,,
+concurrent_load,gemma4:26b,2,1776757230.7928135,0.0,63.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,8,,
+concurrent_load,gemma3:4b,3,1776757230.793811,0.0,63.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,8,,
+concurrent_load,gemma3:4b,4,1776757230.7959454,0.0,47.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,8,,
+concurrent_load,gemma3:4b,5,1776757230.796811,0.0,63.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,8,,
+concurrent_load,gemma3:1b,6,1776757230.7988143,0.0,47.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,8,,
+concurrent_load,gemma3:1b,7,1776757230.8008118,0.0,31.0,0.0,0,0,0.0,http_404,"{""error"":""use /api/generate, /api/chat, /health, /metrics""}
+",False,8,,

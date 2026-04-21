@@ -1,0 +1,5 @@
+test_name,model,request_index,enqueue_ts,ttft_ms,exec_ms,total_ms,completion_tokens,tok_per_s,status,error,streaming,concurrency,preceded_by,response_text
+warmup,gemma3:1b,0,1776757373.4569845,0.0,10547.0,0.0,0,0.0,error,Extra data: line 2 column 1 (char 129),False,1,none,
+warmup,gemma3:4b,1,1776757384.0033162,0.0,27125.0,0.0,0,0.0,error,Extra data: line 2 column 1 (char 130),False,1,gemma3:1b,
+warmup,gemma4:26b,2,1776757411.1270757,0.0,118063.0,0.0,0,0.0,error,Extra data: line 2 column 1 (char 143),False,1,gemma3:4b,
+warmup,qwen2.5:32b,3,1776757529.1948454,0.0,156078.0,0.0,0,0.0,error,Extra data: line 2 column 1 (char 132),False,1,gemma4:26b,

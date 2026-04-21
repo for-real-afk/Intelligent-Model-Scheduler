@@ -274,3 +274,18 @@ if __name__ == "__main__":
         loop      = "uvloop",       # uvloop is ~2× faster than asyncio default
         # workers=1  intentional: scheduler state must not be forked
     )
+
+
+# ── Analytics endpoint (added for comparative logging) ────────────────────────
+from analytics import analytics as _analytics
+
+@app.get("/analytics", summary="Full comparative analysis summary")
+async def analytics_summary():
+    return _analytics.get_summary()
+
+@app.get("/analytics/log", summary="Last N raw JSONL events")
+async def analytics_log(n: int = 100, event: str = None):
+    records = _analytics._records[-n:]
+    if event:
+        records = [r for r in records if r.get("event") == event]
+    return {"count": len(records), "events": records}

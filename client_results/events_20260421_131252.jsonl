@@ -1,0 +1,5 @@
+{"event": "test_start", "base_url": "http://3.109.63.164", "models": ["gemma3:1b", "gemma3:4b", "gemma4:26b", "qwen2.5:32b"], "ts": "2026-04-21T07:42:52.771865+00:00"}
+{"event": "warmup", "model": "gemma3:1b", "exec_ms": 10547.0, "tokens": 0, "status": "error", "ts": "2026-04-21T07:43:04.003316+00:00"}
+{"event": "warmup", "model": "gemma3:4b", "exec_ms": 27125.0, "tokens": 0, "status": "error", "ts": "2026-04-21T07:43:31.127075+00:00"}
+{"event": "warmup", "model": "gemma4:26b", "exec_ms": 118063.0, "tokens": 0, "status": "error", "ts": "2026-04-21T07:45:29.193847+00:00"}
+{"event": "warmup", "model": "qwen2.5:32b", "exec_ms": 156078.0, "tokens": 0, "status": "error", "ts": "2026-04-21T07:48:05.266391+00:00"}
